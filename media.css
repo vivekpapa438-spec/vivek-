@@ -1,0 +1,42 @@
+    
+@media screen and (min-width:320px) and (max-width:570px){
+
+.main{
+flex-direction: column;
+height: unset;
+}
+
+
+.buttan a
+{
+padding: 1px 5px;
+background-color: unset;
+
+}
+.sir li 
+{
+
+    margin: 2px;
+}
+.nan h1
+{
+
+font-size: unset;
+
+
+}
+.mam{
+margin-left: 0;
+}
+
+.nn 
+{
+    height: unset;
+}
+.nan 
+{
+
+    position: unset;
+}
+    
+}

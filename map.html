@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map</title>
+</head>
+<style>
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://tse2.mm.bing.net/th/id/OIP.58y3IMnI1TVgUjcM0_49rwHaEa?pid=Api&P=0&h=180");
+
+}
+.form
+{
+
+    width: 400px;
+    text-align: center;
+    background-color: cadetblue;
+    /* height: 100vh; */
+    border-radius: 20px;
+background: transparent;
+border: solid 2px white;
+    padding-bottom: 20px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    
+}
+
+.form input
+{
+height: 35px;
+width: 250px;
+border-radius: 5px;
+border: 2px solid gold;
+background-color: black;
+color: white;
+background: transparent;
+border-radius: 15px;
+padding: 20px;
+}
+.form ::placeholder
+{
+    color: white;
+}
+
+.form h1
+{
+    padding-bottom: 10px;
+    color: white;
+}
+.form button 
+{
+    color: white;
+    background-color: rgb(185, 14, 154);
+    padding:  10px 30px;
+    border: solid 1px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.form ::placeholder
+{
+
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+</style>
+
+
+
+
+
+<body>
+    
+
+
+<div class="main">
+    <div class="form">
+
+    <form action="">
+    
+        <h1>Sign up Form</h1>
+
+<input  id="first" type="text"  placeholder="first name"  required> <br><br>
+<input  id="last" type="text"  placeholder="last name" required><br><br>
+<input id="email"  type="email"  placeholder="email" required><br><br>
+<input  id="pass" type="password"  placeholder="password"  ><br><br>
+<input id="cpaas" type="password"  placeholder="confirm password"><br><br>
+<button onclick="hello()">submit</button>
+</div>
+    
+</form>
+    </div>
+
+<script>
+
+
+
+let first=document.getElementById("first")
+let last=document.getElementById("last")
+let email=document.getElementById("email")
+let pass=document.getElementById("pass")
+let cpaas=document.getElementById("cpaas")
+
+console.log(first)
+console.log(first.value);
+console.log(last.value);
+console.log(email.value);
+console.log(pass.value);
+console.log(cpaas.value);
+
+function hello ()
+{
+
+
+if(first.value === ""){
+}
+
+else if( last.value === ""){
+
+alert("last name daalo")
+
+}
+
+else if (email.value === "")
+{
+    alert("email daalo")
+}
+
+else if (cpaas.value === "" )
+{
+alert("last passward daalo")
+
+}
+
+else if (pass.value !==  cpaas.value )
+{
+
+    alert("passward mach nh ho rha ha")
+}
+
+else if( pass.value.length < 4 || pass.value.length > 12 ){
+    alert("kam se kam 4 digit dalo")
+}
+
+
+else{
+    alert("sumbit")
+ document.getElementById("Form").reset()
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // map
+
+// // let arr=[2,4,6,8,10]
+
+// // let newarr=arr.map((a)=>
+// // {
+
+// // return a*10;
+
+// // })
+// // console.log(newarr)
+
+
+// let q=["ram","shyam","kamal","rohitkumar","goaa"]
+
+// let newarr=q.map((a)=>
+// {
+// return a.length;
+// })
+// console.log(newarr)
+
+
+
+
+
+// // filter
+
+
+
+// let hii=[10,20,30,40,50,60,70,80,90]
+// let hello=hii.filter((q)=>
+// {
+
+
+// return q >=20 && q <=30
+
+
+// })
+// console.log(hello)
+
+
+
+// let main=["ram","shyam","kamal","rohitkumar","goaa"]
+
+// let king= main.filter((a)=>
+// {
+
+// return a.length ===10
+
+
+
+// })
+// console.log(king)
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>

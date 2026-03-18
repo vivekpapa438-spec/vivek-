@@ -1,0 +1,161 @@
+
+
+
+.main .navbar-brand {
+    font-size: 12px;
+
+}
+.main .navbar {
+
+    height: 44px;
+}
+.main .navbar-light .navbar-brand
+{
+       color: rgba(255, 255, 255, 0.6);
+}
+
+.main .navbar-light .navbar-brand:hover
+{
+       color: rgba(255, 255, 255, 1);
+       
+transition: 1s;
+       
+}
+
+
+
+
+
+.main .navbar-light .navbar-brand span
+{
+margin-right: 8px;
+transition: 0.1s;
+}
+
+
+.main .navbar-light .navbar-nav .nav-link.active
+{
+       color: rgba(255, 255, 255, 0.6);
+
+}
+.main .navbar-light .navbar-nav .nav-link.active:hover
+{
+       color: rgba(255, 255, 255, 1);
+
+}
+.main .nav-link
+{
+    font-size: 12px;
+       color: rgba(255, 255, 255, 0.6);
+}
+
+.main .nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.main .nav-link span
+{
+    margin-right: 6px;
+}
+
+.main .dropdown-menu{
+    min-width: 2rem;
+    color: yellow;
+}
+.main.hii input
+{
+    width: 400px;
+}
+.main .navbar{
+    height: 44px;
+    background-color: #222222;
+}
+
+
+.hello .navbar{
+    height: 100px;
+    background-color: #0f0f0f;
+    border-bottom: solid #222222 1px;
+}
+.main .navbar,
+.hello .navbar{
+    display: flex;
+    align-items: center;
+}
+.h input{
+    width: 550px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px  white solid;
+    background-color: black;
+    padding-left: 20px;
+    margin-right: 60px;
+    color: white;
+}
+.h ::placeholder
+{
+    color: white;
+}
+.hello .navbar-brand 
+
+{
+    color: white;
+    font-size: 40px;
+     font-family: "Poppins";
+     font-weight: bold;
+     
+}
+.hello .navbar-brand:hover
+
+{
+    color: white;
+   
+     
+}
+.icone i{
+    font-size: 20px;
+           color: rgba(255, 255, 255, 1);
+    margin: 0px 5px;
+}
+
+.background
+{
+    background-image: url("PUBG.jpeg");
+    height: 390px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.one .navbar{
+    background-color: #0f0f0f;
+    border-bottom: solid white 1px;
+}
+
+.one .navbar-light .navbar-nav .nav-link.active
+{
+    color: white;
+    margin: 0px 10px;
+}
+.one .navbar-light .navbar-brand
+{
+    color: white;
+     font-family: "Poppins";
+background-color: #666666;
+    width: 250px;
+    margin-left: 30px;
+    padding: 10px 10px;
+}
+
+
+.man .carousel-indicators .active { 
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.man .carousel-indicators [data-bs-target] 
+{
+  width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}

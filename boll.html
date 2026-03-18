@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boll</title>
+</head>
+<body>
+    
+    <style>
+
+
+.hello
+{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+
+}
+
+.bol
+{
+height: 40px;
+width: 40px;
+background-color: yellow;
+border-radius: 50%;
+margin-top: 60px;
+position: relative;
+}
+
+
+
+
+.main
+{
+
+    display: flex;
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+}
+.bol::after {
+    content: "";
+    background-color: black;
+      width: 2px;
+    height: 85px;
+    position: absolute;
+    top: 84px;
+    left: 19px;
+}
+
+
+.bol.first{
+    animation: vivek 5s alternate ease-in infinite;
+
+}
+
+@keyframes vivek
+{
+    50%
+    {
+
+transform: rotate(35deg);
+
+    }
+100%
+    {
+
+transform: rotate(0deg);
+
+    }
+
+}
+
+
+
+
+
+
+    </style>
+
+    <div class="hello">
+<div class="main">
+<div class="bol first"></div>
+<div class="bol"></div>
+<div class="bol"></div>
+<div class="bol"></div>
+<div class="bol last"></div>
+</div>
+    </div>
+
+
+</body>
+</html>

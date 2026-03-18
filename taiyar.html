@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sd
+
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;         
+   height: 100vh;
+   background-color: yellow;
+}
+.dd h1
+{
+    text-align: center;
+    font-size: 100px;
+}
+.dd button
+{
+    text-align: center;
+    font-size: 50px;
+    background-color: yellow;
+    border: solid 1px black;
+    margin: 20px;
+    height: 100px;
+    width: 200px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+</style>
+
+<body>
+    
+    <div class="sd">
+<div class="dd">
+<h1 id="sa">0</h1>
+<button onclick="hello ()">++</button>
+<button onclick=" hii()">--</button>
+<button onclick=" how()">reset</button>
+</div>
+</div>
+
+
+
+    <script>
+
+let sajan = 0;
+
+function hello ()
+{
+
+sajan ++;
+document.getElementById("sa").innerText =sajan
+
+}
+
+function hii (){
+
+if ( sajan >0){
+    
+    sajan --
+
+    document.getElementById("sa").innerText=sajan
+}
+else {
+    alert ("not posival")
+}
+}
+
+
+function how ()
+{
+
+sajan= 0
+
+document.getElementById("sa").innerText =sajan
+
+}
+// for (let i = 0; i >= -100; i++) {
+//   console.log(i);
+// }
+    </script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+/* *
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+  background-image: url("https://wallup.net/wp-content/uploads/2016/04/10/152633-fantasy_art-kites-streaks-CMYK.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.main::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.main h1 {
+  position: relative;
+  font-size: 100px;
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom,
+    red,
+    yellow,
+    green,
+    white,
+darkorange
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  z-index: 2;
+  padding-top: 30px;
+}
+.main h2 {
+  position: relative;
+  font-size: 60px;
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom,
+   red,
+    yellow,
+    green,
+    white,
+darkorange
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  z-index: 2;
+
+}
+.images {
+  position: relative;
+  z-index: 3;
+}
+
+.images img {
+  position: relative;
+  z-index: 3;
+}
+
+.imagess {
+  position: relative;
+  z-index: 3;
+}
+
+.imagess img {
+  z-index: 3;
+  position: absolute;
+  
+}
+.ras {
+  position: relative;
+  z-index: 3;
+  width: 550px;
+  height: 300px;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.ras img {
+  z-index: 3;
+  position: absolute;
+   width: 100%;
+  height: 100%;
+}
+.mai
+{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 40px;
+    
+}
+.haaa {
+  position: relative;
+  width: 440px;
+  height: 300px;
+  z-index: 3;
+
+  background: transparent; 
+}
+
+
+.haaa img {
+  position: absolute;
+  top: -300px;
+  left: 350px;
+  width: 100%;
+  height: 100%;
+  background: none;   
+  filter: none;      
+} */

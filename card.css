@@ -1,0 +1,106 @@
+
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+.hello
+{
+
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1
+{
+    z-index: 1;
+    text-align: center;
+    padding-top: 80px;
+    color: black;
+}
+
+.photo
+{
+height: 100px;
+width: 100px;
+z-index: 1;
+position: relative;
+
+}
+
+.photo img
+{
+height: 100%;
+width: 100%;
+border-radius: 50%;
+position: absolute;
+    top: -415px;
+    left: 573px;
+}
+.main
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 200px;
+    background-color: black;
+    color: white;
+   
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+}
+
+.main::before{
+content: "";
+position: absolute;
+width: 200px;
+height: 130%;
+background-image: linear-gradient(180deg,rgb(0,183,255),rgb(255,48,255) ,rgb(255,48,25) ,rgb(55,48,255));
+
+animation: vivek 40s linear infinite;
+
+}
+
+
+
+@keyframes vivek
+{
+
+from
+{
+
+    transform: rotate(30deg);
+}
+to
+{
+
+    transform: rotate(10060deg);
+}
+
+}
+ .main::after {
+
+    content: "";
+
+position: absolute;
+background: yellow;
+/* inset: 10px; */
+    /* height: 300px;
+    width: 200px; */
+border-radius: 15px;
+height: 290px;
+width: 190px;
+
+
+
+
+
+} 

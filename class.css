@@ -1,0 +1,85 @@
+*
+{
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main
+{
+width: 100%;
+background-color: black;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+   
+}
+
+.sir ul{
+display: flex;
+list-style: none;
+align-items: center;
+justify-content: center;
+
+}
+.sir li{
+margin: 10px;
+
+}
+.mam
+{
+
+    margin-left: 20px;
+}
+.buttan a
+{
+text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    padding: 10px 30px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.nn
+{
+background-image: url(a.webp);
+height: 500px;
+background-size: cover;
+
+}
+.buttana a
+{
+text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    padding: 10px 30px;
+    background-color: blue;
+    border-radius: 10px;
+}
+.buttana
+{
+margin-top: 20px;
+
+
+}
+
+
+.nn{
+ position: relative;
+    text-align: center;
+}
+.nan
+{
+
+    position: absolute;
+  top: 193px;
+    left: 398px;
+}
+.nan h1{
+font-size: 50px;
+color: white;
+}
+.nan p{
+color: white;
+}
